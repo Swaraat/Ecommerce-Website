@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+/* custom styling addition starting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+/* custom styling addition ending */
+
+
+
+/*Now we are just editing the first option of logo,home,cart... in this section*/
+
+#img {
+    width: 127px;
+    height: 117px;
+}
+
+/* Adjust the margin-left property to move the logo to the left */
+.logo {
+    margin-left: -57px;
+}
+
+/* we are wanting to align the heading in one line */
+/* For that first we will separate the icon from the logos and stick the top*/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 2px 60px;
+    background: #d0ad87;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); */
+    box-shadow: 0px 4px 20px 10px rgba(208, 173, 135, .6);
+    z-index: 1000;
+    /* Increase the z-index */
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 10vh;
+}
+
+/* then we will have to edit the navbar for making this as a banner */
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* now we will remove the bullets and padding added so that the upper tag looks good */
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+/* remove the underline from the icons */
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+/* adding hover effect - it changes the color when the mouse is on it and something to make it look good with the timing */
+#navbar li a:hover,
+#navbar li a.active {
+    color: #066ef5f1;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #066ef5f1;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/*the editing ends here*/
+
+
+
+
+/*NOW WE ARE EDITING THE HOMW PAGE*/
+
+
+#hero {
+    background-image: url("image/main-model.png");
+    height: 118vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 8% right;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #8B4513;
+}
+
+#hero p {
+    font-weight: 1000;
+    color: #E34946;
+}
+
+
+/* Editing the button and img of the website */
+
+#but {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #8B4513;
+    border: none;
+    cursor: pointer;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.1);/
+}
+
+#but img {
+
+    width: 100px;
+    /* Set the width to your desired size */
+    height: auto;
+    /* M/* Maintain aspect ratio */
+}
+
+/*button wditing ends here*/
+
+
+#feature .fe-box {
+    width: 210px;
+    /* text-align: center; */
+    padding: 32px;
+    box-shadow: 15px 15px 34px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 246px;
+    border-radius: 71px;
+    margin: 22px 0px;
+}
+
+/* make the img responsive */
+#feature .fe-box img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+/* style the writing and adjust the writing perfectly */
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color: #E34946;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+    background-color: #AED9E0;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+    background-color: #C5E99B;
+
+}
+
+#feature .fe-box:nth-child(4) h6 {
+    background-color: #D1B2E2;
+
+}
+
+#feature .fe-box:nth-child(5) h6 {
+    background-color: #FFD700;
+
+}
+
+#feature .fe-box:nth-child(6) h6 {
+    background-color: #D3D3D3;
+
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* feature posrtion ended */
+
+
+
+
+/* now started Featured Products portion */
+
+/* first make the text in the center */
+#product1{
+    text-align: center;
+}
+
+/* now widdth of product pics are setted */
+#product1 .pro{
+    width: 23%;
+    min-width: 25px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.03s ease;
+    position: relative;/*to make the cart icon right side*/
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+/* now making the pic responsive */
+#product1 .pro img{
+width: 100%;
+border-radius: 20px;
+}
+/* making text allignedfrom the start */
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+/*brand name style giiven*/
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+/* decription style is been given */
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+/* now editing the startag */
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 141, 25);
+}
+
+/* now we will edit the pricetag */
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+/* we will position the cart symbol rightside */
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+
+/* we are wanting to make the products in a same line */
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Featured Products portion ends */
+
+
+
+
+/* banner porion editing starts from here */
+
+/* to make the writing and the button in the section */
+#banner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-image: url(image/banner/b2.jpg);
+width: 100%;
+/* height of the banner */
+height: 40vh;
+background-size: cover;
+background-position: center;
+}
+
+/* repair service colour */
+#banner h4{
+    color: #ffff;
+    font-size: 16px;
+}
+
+/*other writing in it*/
+#banner h2{
+    color: #ffff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+/*color of span tag*/
+#banner span{
+    color: red;
+   
+}
+
+/*now time to work with the button.it will work for all normal bttons so i am making a class name normal nbuttons. it is actually genraralized can be used for multiple.*/
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:black;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor:pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* adding the hover effect */
+#banner button:hover{
+    background: #088178;
+    color: white;
+}
+#sm-banner{
+     padding-left: 10%;
+   padding-right: 10%;
+   height: auto;
+}
+
+/* now we will style the small banner */
+#sm-banner .banner-box{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+background-image: url(image/banner/b17.jpg);
+min-width: 580px;
+/* height of the banner */
+height: 50vh;
+background-size: cover;
+background-position: center;
+padding: 30px;
+}
+
+
+#sm-banner .banner-box2{
+
+background-image: url(image/banner/b10.jpg);
+
+}
+/* when multiple banner is making then we want to make is side by side. to make it side by side heres what we will have to do. */
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+/* now we are editing the fonts */
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight:300;
+}
+
+#sm-banner h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight:800;
+}
+
+#sm-banner span{
+    color: #fff;
+    font-size: 14px;
+    font-weight:500;
+    padding-bottom: 15px;
+}
+
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* change the coller of the button  */
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    border-color: 2px sold white;
+}
