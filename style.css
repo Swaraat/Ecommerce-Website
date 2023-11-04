@@ -386,6 +386,7 @@ button.normal{
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
+    height: fit-content;
     color:black;
     background-color: #fff;
     border-radius: 4px;
@@ -523,7 +524,7 @@ margin-bottom: 20px;
 
 
 
-  /* now to edit new letter  */
+  /* now to edit news letter  section*/
   #newsletter {
     display: flex;
     justify-content: space-between;
@@ -535,7 +536,7 @@ margin-bottom: 20px;
  
   #newsletter .form{
     display: flex;
-    width: 40%;
+    width: 35%;
  }
  #newsletter h4{
     font-size: 22px;
@@ -553,8 +554,6 @@ margin-bottom: 20px;
        color: #ffbd27;
  }
 
-
-
  #newsletter input{
     height: 3.125rem;
     padding: 0 1.25rem;
@@ -562,10 +561,38 @@ margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 4px;
     outline:none;
+    border-top-right-radius:0;
+    border-bottom-right-radius: 0;
  }
 
  #newsletter button{
     background-color: #088178;
     color: #fff;
     white-space: nowrap;
+    border-top-left-radius:0;
+    border-bottom-left-radius: 0;
  }
+/* news letter section end here  */
+
+
+
+/* now starts the footer section  */
+
+#ak{
+    height: 15%;
+    width: 10%;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+   align-items: flex-start;
+   margin-bottom: 20px;
+}
+
+
+footer .col{
+    display: flex;
+ flex-direction: column;
+    justify-content: space-between;
+}
