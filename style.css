@@ -653,3 +653,42 @@ footer .copyright{
 }
 
 /* footer section ends  */
+
+
+
+
+
+
+/* media quary */
+@media(max-width:799px){
+/* intially the nav bar is sated in the right */
+
+    #navbar {
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6f3;
+        box-shadow: 0 40px 60px rgba((0), 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+    }
+
+    /* now we will adjust the margin and pading acordng to it  */
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        /* it is fo the visibility of the three dots for the bigger div  */
+        display: none;
+        align-items: center;
+    }
+
+    /* we will add a menu section(a 3 dot sec which will only be visible for mobile) */
+
+}
