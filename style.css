@@ -539,7 +539,7 @@ margin-bottom: 20px;
     width: 35%;
  }
  #newsletter h4{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
     color: #FFFFFF;
  }
@@ -578,21 +578,78 @@ margin-bottom: 20px;
 
 /* now starts the footer section  */
 
+/* change the size pof the logo  */
 #ak{
-    height: 15%;
-    width: 10%;
+    height: 28%;
+    width: 22%;
 }
 
 footer{
     display: flex;
     flex-wrap: wrap;
-   align-items: flex-start;
-   margin-bottom: 20px;
+   justify-content: space-between;
+  
 }
 
 
 footer .col{
     display: flex;
  flex-direction: column;
-    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-bottom: 20px;
 }
+
+
+footer .logo{
+    margin-bottom: 30px;
+
+}
+
+
+footer h4{
+    font-size: 0.875rem;
+padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+    
+}
+
+footer .follow{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;    
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover, footer a:hover{
+    color: #088178;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+/* footer section ends  */
