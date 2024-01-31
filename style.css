@@ -9,6 +9,9 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* home page editing starts  */
+
+
 h1 {
     font-size: 50px;
     line-height: 64px;
@@ -679,11 +682,7 @@ footer .copyright {
 /* footer section ends  */
 
 
-
-
-
-
-
+/* media quary for tabs */
 @media(max-width:799px) {
 
     /* intially the nav bar is sated in the right */
@@ -777,3 +776,49 @@ footer .copyright {
 
 
 }
+
+/* home page editing ends here  */
+
+
+
+
+/* shop page styling starts */
+
+/* page heading and style edited */
+#page-header{
+    background-image: url("image/banner/b1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+.txt{
+    color: rgb(231, 220, 220);
+}
+
+
+/* under page button edit (rolling button added) */
+#pagination{
+    text-align: center;
+
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
