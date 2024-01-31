@@ -782,6 +782,9 @@ footer .copyright {
 
 
 
+
+
+
 /* shop page styling starts */
 
 /* page heading and style edited */
@@ -819,6 +822,100 @@ footer .copyright {
     font-size: 16px;
     font-weight: 600;
 }
+
+/* shop page styling ends here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* product page editing starts from here   */
+
+
+/* making two section product pics and detals side by side */
+
+#pro-details{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+ /* made the images to the left side  */
+ #pro-details .single-pro-image{
+    width: 40%;;
+    margin-right: 50px;
+ }
+
+/* now the images except the main image made smaller  */
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.small-img-col{
+flex-basis: 24%;
+cursor: pointer;
+
+}
+
+
+/*siz of the two potion is managed by the product detais */
+#pro-details .single-pro-details{
+    width: 50%;
+    padding-top:30px;
+}
+
+/* h4 h2 and other tags are added and select button are being edited */
+
+#pro-details .single-pro-details h4{
+   padding: 40px 0 20px 0;
+}
+
+#pro-details .single-pro-details h2{
+    font-size: 26px;
+ }
+
+ #pro-details .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+ }
+
+ #pro-details .single-pro-details input{
+width: 50px;
+height: 47px;
+padding-left: 10px;
+font-size: 15px;
+margin-right: 10px; 
+ }
+
+ #pro-details .single-pro-details input{
+    outline: none;
+ }
+
+ #pro-details .single-pro-details button{
+    background-color: #088178;
+    color: #FFFFFF;
+ }
+
+
+ /* now editing text  */
+ #pro-details .single-pro-details span{
+    line-height: 25px;
+ }
+
+
 
 
 
