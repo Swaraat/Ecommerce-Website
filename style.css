@@ -777,6 +777,12 @@ footer .copyright {
 
 }
 
+
+
+
+
+
+
 /* home page editing ends here  */
 
 
@@ -1016,4 +1022,44 @@ footer .copyright {
 
 #blog .blog-details a:hover::after {
     background-color: #088178;
+}
+
+/* blog editing ends here  */
+
+
+
+/* now this is for the about pages  */
+#page-header.about-header{
+    background-image: url("image/banner.jpg");
+}
+
+/* width of the pic changed  */
+#about-head img{
+   width: 50%;
+   height: auto; 
+}
+/* writing of the text became at the posion of the text  */
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head div{
+    padding-left: 40px;
+}
+
+/* video portion editing */
+#about-app{
+    text-align: center;
+}
+
+#about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
