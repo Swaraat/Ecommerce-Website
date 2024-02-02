@@ -682,100 +682,7 @@ footer .copyright {
 /* footer section ends  */
 
 
-/* media quary for tabs */
-@media(max-width:799px) {
 
-    /* intially the nav bar is sated in the right */
-    /* we will add a menu section(a 3 dot sec which will only be visible for mobile) */
-    /* html index no 28 for media quary*/
-    .section-p1 {
-        padding: 40px 40px;
-    }
-
-
-
-
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;
-        background-color: #E3E6f3;
-        box-shadow: 0 40px 60px rgba((0), 0, 0, 0.1);
-        padding: 80px 0 0 10px;
-        transition: 0.5s;
-    }
-
-    #navbar.active {
-        right: 0px;
-    }
-
-
-
-    /* now we will adjust the margin and pading acordng to it  */
-
-    #navbar li {
-        margin-bottom: 5vh;
-    }
-
-    /* mobile tag is an id to target the nav 3 dot for slower phone display. one mobile is also present in the nav bar in the upper portion. */
-
-    #mobile {
-        /* it is fo the visibility of the three dots for the bigger div  */
-        display: flex;
-        align-items: center;
-    }
-
-    #mobile i {
-        color: #1a1a1a;
-        font-size: 24px;
-        padding-left: 20px;
-
-    }
-
-    /* for tab dont want to show the cart in the three dot  */
-    #lg-bag {
-        display: none;
-    }
-
-    /* close button active for tab  */
-    #close {
-        display: initial;
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        color: #222;
-        font-size: 24px;
-    }
-
-    /* hero and featcher styling are being changed for tab  */
-
-    #hero {
-
-        height: 68vh;
-
-        padding: 0 80px;
-        background-position: top 30% right 30%;
-
-    }
-
-
-    #feature {
-
-        justify-content: center
-    }
-
-    #feature .fe-box {
-        margin: 15px 15px;
-    }
-
-
-}
 
 
 
@@ -956,8 +863,11 @@ footer .copyright {
 
 }
 
-
 /* blog editing */
+
+
+
+
 
 #blog .blog-box {
     display: flex;
@@ -1129,7 +1039,6 @@ footer .copyright {
 }
 
 
-
 /* editing form section  */
 
 #form-details form{
@@ -1161,7 +1070,7 @@ footer .copyright {
     align-items: flex-start;
 }
 
-#form-details .people div image{
+#form-details .people div img{
    width: 65px;
    height: 65px;
    object-fit: cover;
@@ -1190,5 +1099,234 @@ footer .copyright {
     color: #000;
 }
 
+/* contact page ends here  */
 
+
+
+
+
+/* from here starts cart portion*/
+
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 70px;
+
+}
+
+
+/* table data edit  */
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+
+
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+/* quantity size  */
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px;
+}
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+/* data width  */
+
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+/* spacing on the table row  */
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+
+/* font size add  */
+#cart table tbody td{
+    font-size: 13px;
+}
+
+/* czrt add  */
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+
+
+#coupon input{
+    padding:10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+/* button stle  */
+
+#coupon button,
+#subtotal button{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+
+/* table style  */
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* table data styleing  */
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+
+
+
+/* media quary for tabs */
+@media(max-width:799px) {
+
+    /* intially the nav bar is sated in the right */
+    /* we will add a menu section(a 3 dot sec which will only be visible for mobile) */
+    /* html index no 28 for media quary*/
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+
+
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6f3;
+        box-shadow: 0 40px 60px rgba((0), 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.5s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+
+
+    /* now we will adjust the margin and pading acordng to it  */
+
+    #navbar li {
+        margin-bottom: 5vh;
+    }
+
+    /* mobile tag is an id to target the nav 3 dot for slower phone display. one mobile is also present in the nav bar in the upper portion. */
+
+    #mobile {
+        /* it is fo the visibility of the three dots for the bigger div  */
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+
+    }
+
+    /* for tab dont want to show the cart in the three dot  */
+    #lg-bag {
+        display: none;
+    }
+
+    /* close button active for tab  */
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    /* hero and featcher styling are being changed for tab  */
+
+    #hero {
+
+        height: 68vh;
+
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+
+    }
+
+
+    #feature {
+
+        justify-content: center
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px;
+    }
+
+
+}
 
