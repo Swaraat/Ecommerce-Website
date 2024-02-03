@@ -381,6 +381,7 @@ p {
     height: 40vh;
     background-size: cover;
     background-position: center;
+    
 }
 
 /* repair service colour */
@@ -544,6 +545,7 @@ button.white {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0px 80px;
+   
 }
 
 
@@ -995,11 +997,13 @@ footer .copyright {
 }
 
 
-#contact-details .details span,#form-details form span {
+#contact-details .details span,
+#form-details form span {
     font-size: 12px;
 }
 
-#contact-details .details h2,#form-details form h2{
+#contact-details .details h2,
+#form-details form h2 {
     font-size: 26px;
     line-height: 35px;
     padding: 20px 0;
@@ -1012,28 +1016,30 @@ footer .copyright {
 }
 
 /* list tabg bllet points remove  */
-#contact-details .details li{
+#contact-details .details li {
     list-style: none;
     display: flex;
     padding: 10px 0;
 }
+
 /* editing the text  */
-#contact-details .details i{
+#contact-details .details i {
     font-size: 14px;
     padding-right: 22px;
 }
 
-#contact-details .details li p{
+#contact-details .details li p {
     margin: 0;
     font-size: 14px;
 }
 
 /* editing the map sec  */
-#contact-details .map{
+#contact-details .map {
     width: 55%;
     height: 400px;
 }
-#contact-details .map iframe{
+
+#contact-details .map iframe {
     width: 100%;
     height: 100%;
 }
@@ -1041,15 +1047,16 @@ footer .copyright {
 
 /* editing form section  */
 
-#form-details form{
-   width: 65%;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
+#form-details form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
 
-#form-details form input,#form-details form textarea{
+#form-details form input,
+#form-details form textarea {
     width: 100%;
     padding: 12px 15px;
     outline: none;
@@ -1057,27 +1064,27 @@ footer .copyright {
     border: 1px solid #e1e1e1;
 }
 
-#form-details form button{
+#form-details form button {
     background-color: #088178;
     color: white;
 }
 
 
 /* member portion  */
-#form-details .people div{
+#form-details .people div {
     padding-bottom: 25px;
     display: flex;
     align-items: flex-start;
 }
 
-#form-details .people div img{
-   width: 65px;
-   height: 65px;
-   object-fit: cover;
-   margin-right: 15px;
+#form-details .people div img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
 }
 
-#form-details{
+#form-details {
     display: flex;
     justify-content: space-between;
     margin: 30px;
@@ -1085,14 +1092,14 @@ footer .copyright {
     border: 1px solid #e1e1e1;
 }
 
-#form-details .people div p{
+#form-details .people div p {
     margin: 0;
     font-size: 13px;
-    line-height:25px;
+    line-height: 25px;
 
 }
 
-#form-details .people div p span{
+#form-details .people div p span {
     display: block;
     font-size: 16px;
     font-weight: 600;
@@ -1108,54 +1115,58 @@ footer .copyright {
 /* from here starts cart portion*/
 
 
-#cart table{
+#cart table {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
     white-space: nowrap;
 }
 
-#cart table img{
+#cart table img {
     width: 70px;
 
 }
 
 
 /* table data edit  */
-#cart table td:nth-child(1){
+#cart table td:nth-child(1) {
     width: 100px;
     text-align: center;
 }
 
 
-#cart table td:nth-child(2){
+#cart table td:nth-child(2) {
     width: 150px;
     text-align: center;
 }
-#cart table td:nth-child(3){
+
+#cart table td:nth-child(3) {
     width: 250px;
     text-align: center;
 }
 
 #cart table td:nth-child(4),
 #cart table td:nth-child(5),
-#cart table td:nth-child(6){
+#cart table td:nth-child(6) {
     width: 150px;
     text-align: center;
 }
+
 /* quantity size  */
-#cart table td:nth-child(5) input{
+#cart table td:nth-child(5) input {
     width: 70px;
     padding: 10px 5px;
 }
+
 #cart table thead {
     border: 1px solid #e2e9e1;
     border-left: none;
     border-right: none;
 }
+
 /* data width  */
 
-#cart table thead td{
+#cart table thead td {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 13px;
@@ -1168,30 +1179,30 @@ footer .copyright {
 }
 
 /* font size add  */
-#cart table tbody td{
+#cart table tbody td {
     font-size: 13px;
 }
 
 /* czrt add  */
-#cart-add{
+#cart-add {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#coupon{
+#coupon {
     width: 50%;
     margin-bottom: 30px;
 }
 
 #coupon h3,
-#subtotal h3{
+#subtotal h3 {
     padding-bottom: 15px;
 }
 
 
-#coupon input{
-    padding:10px 20px;
+#coupon input {
+    padding: 10px 20px;
     outline: none;
     width: 60%;
     margin-right: 10px;
@@ -1201,14 +1212,14 @@ footer .copyright {
 /* button stle  */
 
 #coupon button,
-#subtotal button{
+#subtotal button {
     background-color: #088178;
     color: #fff;
     padding: 12px 20px;
 
 }
 
-#subtotal{
+#subtotal {
     width: 50%;
     margin-bottom: 30px;
     border: 1px solid #e2e9e1;
@@ -1217,14 +1228,14 @@ footer .copyright {
 
 
 /* table style  */
-#subtotal table{
+#subtotal table {
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 20px;
 }
 
 /* table data styleing  */
-#subtotal table td{
+#subtotal table td {
     width: 50%;
     border: 1px solid #e2e9e1;
     padding: 10px;
@@ -1236,17 +1247,15 @@ footer .copyright {
 
 
 /* media quary for tabs */
-@media(max-width:799px) {
+@media  (min-width: 601px) and (max-width: 1025px) {
 
     /* intially the nav bar is sated in the right */
     /* we will add a menu section(a 3 dot sec which will only be visible for mobile) */
     /* html index no 28 for media quary*/
-    .section-p1 {
-        padding: 40px 40px;
-    }
 
 
 
+    /* navbar settings changed 3 dot section  */
 
     #navbar {
         display: flex;
@@ -1317,16 +1326,279 @@ footer .copyright {
 
     }
 
-
+    .section-p1 {
+        padding: 40px 40px;
+    }
     #feature {
-
-        justify-content: center
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     #feature .fe-box {
-        margin: 15px 15px;
+        margin: 15px;
+    }
+
+
+    /* banner size changed  */
+    #banner {
+        height: 20vh;
+    }
+
+    /* banner full width given  */
+    #sm-banner .banner-box {
+        width: 100%;
+        height: 30vh;
+
+    }
+
+    /* in banner 3 the padding was extra so we are decreasing the padding:   */
+    #banner3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 50px;
+        /* border: 2px solid red; */
+      
+    }
+
+    #banner3 .banner-box {
+      
+        width: 70%; /* Change to 100% to ensure it takes the full width */
+        margin-bottom: 20px; /* Add some space between items if needed */
+    }
+
+    #newsletter .form {
+        
+        width: 70%;
     }
 
 
 }
 
+
+
+
+/* for mobile  */
+@media screen and (min-width:300px) and (max-width:600px){
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6f3;
+        box-shadow: 0 40px 60px rgba((0), 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.5s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+
+
+    /* now we will adjust the margin and pading acordng to it  */
+
+    #navbar li {
+        margin-bottom: 5vh;
+    }
+
+    /* mobile tag is an id to target the nav 3 dot for slower phone display. one mobile is also present in the nav bar in the upper portion. */
+
+    #mobile {
+        /* it is fo the visibility of the three dots for the bigger div  */
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+
+    }
+
+    /* for tab dont want to show the cart in the three dot  */
+    #lg-bag {
+        display: none;
+    }
+
+    /* close button active for tab  */
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #header {
+     padding: 10px 30px; 
+    }
+
+
+
+    /* hero section  */
+h2{
+    font-size: 32px;
+}
+#hero h4 {
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 35px;
+  
+}
+
+h4 {
+    font-size: 15px;
+    color: #222;
+}
+    #hero {
+        height: 68vh;
+        padding: 0 20px;
+      background-position: 55%;
+
+    }
+
+
+    .section-p1 {
+        padding: 40px 40px;
+    }
+    #feature {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #feature .fe-box {
+        margin: 15px;
+    }
+
+
+
+/* product is now perfect  */
+
+#product1 .pro {
+    width: 100%;
+   
+}
+
+
+
+
+    /* banner size changed  */
+    #banner {
+        height: 40vh;
+    }
+
+    /* banner full width given  */
+    #sm-banner .banner-box {
+        
+         height: 50vh;
+         width: 5vw;
+
+    }
+
+    /* in banner 3 the padding was extra so we are decreasing the padding:   */
+    /* #banner3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 50px;
+       } */
+
+    /* #banner3 .banner-box {
+      
+        width: 70%; /* Change to 100% to ensure it takes the full width 
+        margin-bottom: 20px; /* Add some space between items if needed 
+    } */
+
+
+
+    #sm-banner .banner-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url(image/banner/b17.jpg);
+        min-width: 280px;
+        height: 45vh;
+        background-size: cover;
+        background-position: right;
+        padding: 11px;
+    }
+    
+    #sm-banner .banner-box2 {
+        background-position: right;
+        background-image: url(image/banner/b10.jpg);
+    
+    }
+    #banner3 .banner-box3 {
+        background-image: url(image/banner/b18.jpg);
+    }
+
+    #banner3 .banner-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+         min-width: 30%;
+        height: 30vh;
+        background-size: cover;
+        background-position: 70%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    #newsletter input {
+        height: 3.125rem;
+        padding: 0 1.25rem;
+        width: 170%;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        outline: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+ 
+    #newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .newstext {
+        margin-bottom: 20px; /* Adjust the margin as needed */
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form input {
+        margin-bottom: 10px; /* Adjust the margin as needed */
+    }
+    
+    
+    
+ 
+    
+    
+
+
+}
