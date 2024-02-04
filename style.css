@@ -97,6 +97,24 @@ p {
     position: relative;
 }
 
+.cartt {
+    /* background-color: #dd920569; */
+    color: #293241;
+    padding: 0px;
+    font-size: 28px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.classamount {
+    font-size: 16px;
+    /* background-color: red; */
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 11px;
+}
+
 /* remove the underline from the icons */
 #navbar li a {
     text-decoration: none;
@@ -1466,11 +1484,20 @@ footer .copyright {
         box-shadow: 0 40px 60px rgba((0), 0, 0, 0.1);
         padding: 80px 0 0 10px;
         transition: 0.5s;
+        z-index: 10;
+    }
+    .classamount{
+        background-color: #E34946;
     }
 
     #navbar.active {
         right: 0px;
     }
+
+.special{
+    display: none;
+    background: #b81d1d;
+}
 
     /* now we will adjust the margin and pading acordng to it  */
 
@@ -1494,9 +1521,9 @@ footer .copyright {
     }
 
     /* for tab dont want to show the cart in the three dot  */
-    #lg-bag {
+    /* #lg-bag {
         display: none;
-    }
+    } */
 
     /* close button active for tab  */
     #close {
